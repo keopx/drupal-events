@@ -1,0 +1,14 @@
+uuid: 4428dc0b-269c-4b2a-b582-781d56cb0a7c
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Comentarios sobre el sitio web'
+recipients:
+  - keopx@keopx.net
+reply: ''
+weight: 0
+message: 'Se ha enviado su mensaje.'
+redirect: ''

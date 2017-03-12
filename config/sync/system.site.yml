@@ -1,0 +1,14 @@
+uuid: e164637a-d54c-4fd4-926a-af5bff6bdfe6
+name: Drupal
+mail: keopx@keopx.net
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
