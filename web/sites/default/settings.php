@@ -531,6 +531,7 @@ if ($settings['hash_salt']) {
  * about securing private files.
  */
 # $settings['file_private_path'] = '';
+$settings['file_private_path'] = $site_path . '/private';
 
 /**
  * Session write interval:
