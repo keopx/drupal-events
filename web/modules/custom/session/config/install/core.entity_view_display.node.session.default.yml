@@ -1,0 +1,62 @@
+uuid: 39ab5e46-99e7-4c47-b4e2-cc3c6f3761b3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.session.field_session_audience
+    - field.field.node.session.field_session_desciption
+    - field.field.node.session.field_session_drupal_version
+    - field.field.node.session.field_session_level
+    - field.field.node.session.field_session_speaker
+    - field.field.node.session.field_session_state
+    - node.type.session
+  module:
+    - options
+    - text
+    - user
+id: node.session.default
+targetEntityType: node
+bundle: session
+mode: default
+content:
+  field_session_audience:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_session_desciption:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_session_drupal_version:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_session_level:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_session_speaker:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_session_state:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  links:
+    weight: 100
+hidden:
+  langcode: true

@@ -1,0 +1,19 @@
+uuid: d6a78359-11d1-46cd-8ce6-56b0f349c8c5
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_session_desciption
+field_name: field_session_desciption
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

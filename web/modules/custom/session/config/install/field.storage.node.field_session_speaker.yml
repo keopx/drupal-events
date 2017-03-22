@@ -1,0 +1,20 @@
+uuid: 53ce9322-2b63-42da-997a-3d67c81d8f60
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_session_speaker
+field_name: field_session_speaker
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

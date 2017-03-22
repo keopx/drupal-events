@@ -1,0 +1,51 @@
+uuid: da228585-ce4c-45cf-a513-dfa064a495db
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_session_audience
+field_name: field_session_audience
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Developers
+      label: Desarrolladores
+    -
+      value: 'Site Building'
+      label: 'Site Building'
+    -
+      value: DevOps
+      label: DevOps
+    -
+      value: Systems
+      label: Sistemas
+    -
+      value: 'Proyect management'
+      label: 'Gestor de proyectos'
+    -
+      value: Themers
+      label: Themers
+    -
+      value: 'Case studies'
+      label: 'Casos de estudio'
+    -
+      value: Customers
+      label: Clientes
+    -
+      value: Marketing
+      label: Marketing
+    -
+      value: Business
+      label: Negocios
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
