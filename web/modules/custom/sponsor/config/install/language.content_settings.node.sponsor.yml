@@ -1,0 +1,11 @@
+uuid: 0b39d373-1a41-45cc-9cb9-53b6916ec64c
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.sponsor
+id: node.sponsor
+target_entity_type_id: node
+target_bundle: sponsor
+default_langcode: site_default
+language_alterable: false

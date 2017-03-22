@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_uninstall().
+ */
+function sponsor_uninstall() {
+  $content_type = \Drupal::entityManager()->getStorage('node_type')->load('sponsor');
+  $content_type->delete();
+}

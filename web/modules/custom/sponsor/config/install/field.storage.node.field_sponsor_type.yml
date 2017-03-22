@@ -1,0 +1,33 @@
+uuid: 780a8131-aeac-4a57-bac6-e377eb5947c9
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_sponsor_type
+field_name: field_sponsor_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Platinium
+      label: Platinium
+    -
+      value: Gold
+      label: Gold
+    -
+      value: Silver
+      label: Silver
+    -
+      value: Bronze
+      label: Bronze
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

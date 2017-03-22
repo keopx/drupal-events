@@ -1,0 +1,14 @@
+{
+  "name": "drupal/sponsor",
+  "type": "drupal-module",
+  "description": "Sponsor",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/sponsor",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/sponsor",
+    "source": "http://cgit.drupalcode.org/sponsor"
+  },
+  "require": { }
+}

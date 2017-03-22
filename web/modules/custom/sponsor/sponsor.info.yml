@@ -1,0 +1,8 @@
+name: Sponsor
+type: module
+description: Sponsor
+core: 8.x
+package: Drupal Events
+dependencies:
+  - node
+  - image
