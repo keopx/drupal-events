@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains attendees.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function attendees_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the attendees module.
+    case 'help.page.attendees':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Attendees') . '</p>';
+      return $output;
+
+    default:
+  }
+}

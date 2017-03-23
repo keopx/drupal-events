@@ -1,0 +1,5 @@
+name: Attendees
+type: module
+description: Attendees
+core: 8.x
+package: Drupal Events
