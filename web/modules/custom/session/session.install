@@ -4,7 +4,7 @@
  * Implements hook_uninstall().
  */
 function session_uninstall() {
-  $view = \Drupal\views\Views::getView('session');
+  $view = \Drupal\views\Views::getView('sessions');
   $storage = $view->storage;
   $storage->delete();
 
