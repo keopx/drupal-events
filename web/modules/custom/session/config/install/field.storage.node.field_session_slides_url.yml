@@ -1,16 +1,16 @@
-uuid: d6a78359-11d1-46cd-8ce6-56b0f349c8c5
+uuid: 9c38af01-fff2-4af8-a457-eb0287ba441b
 langcode: es
 status: true
 dependencies:
   module:
+    - link
     - node
-    - text
-id: node.field_session_desciption
-field_name: field_session_desciption
+id: node.field_session_slides_url
+field_name: field_session_slides_url
 entity_type: node
-type: text_with_summary
+type: link
 settings: {  }
-module: text
+module: link
 locked: false
 cardinality: 1
 translatable: true

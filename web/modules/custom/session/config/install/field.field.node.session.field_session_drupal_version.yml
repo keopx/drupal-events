@@ -7,6 +7,8 @@ dependencies:
     - node.type.session
   module:
     - options
+_core:
+  default_config_hash: 4kMOYgmvz_w_LJfX36s_LZntNd78A1eS-2uSsjjUgT0
 id: node.session.field_session_drupal_version
 field_name: field_session_drupal_version
 entity_type: node

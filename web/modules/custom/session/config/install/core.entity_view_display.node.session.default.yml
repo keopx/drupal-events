@@ -4,16 +4,24 @@ status: true
 dependencies:
   config:
     - field.field.node.session.field_session_audience
-    - field.field.node.session.field_session_desciption
+    - field.field.node.session.field_session_description
     - field.field.node.session.field_session_drupal_version
+    - field.field.node.session.field_session_language
     - field.field.node.session.field_session_level
+    - field.field.node.session.field_session_slides
+    - field.field.node.session.field_session_slides_url
     - field.field.node.session.field_session_speaker
     - field.field.node.session.field_session_state
+    - field.field.node.session.field_session_type
     - node.type.session
   module:
+    - file
+    - link
     - options
     - text
     - user
+_core:
+  default_config_hash: 9hSY1xBreKVZsszjCvgWNwkFXRzuOI_gNVR5af7AKT0
 id: node.session.default
 targetEntityType: node
 bundle: session
@@ -25,8 +33,8 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
-  field_session_desciption:
-    weight: 107
+  field_session_description:
+    weight: 108
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -37,12 +45,35 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
+  field_session_language:
+    weight: 112
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
   field_session_level:
     weight: 104
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
+  field_session_slides:
+    weight: 109
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+  field_session_slides_url:
+    weight: 110
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
   field_session_speaker:
     weight: 102
     label: above
@@ -52,6 +83,12 @@ content:
     type: entity_reference_label
   field_session_state:
     weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_session_type:
+    weight: 111
     label: above
     settings: {  }
     third_party_settings: {  }

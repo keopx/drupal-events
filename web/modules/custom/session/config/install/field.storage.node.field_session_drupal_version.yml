@@ -5,6 +5,8 @@ dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: VdjVwjqq7Qmray2qOes39uTZ9YhcaJ2kRix2aJG2qCc
 id: node.field_session_drupal_version
 field_name: field_session_drupal_version
 entity_type: node

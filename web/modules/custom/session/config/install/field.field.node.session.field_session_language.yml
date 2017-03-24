@@ -1,19 +1,17 @@
-uuid: 0809c65d-87cb-4a3a-81c5-a94b72b444c7
+uuid: e7e8bad3-b4fb-4efb-b890-146e810bf17e
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_session_level
+    - field.storage.node.field_session_language
     - node.type.session
   module:
     - options
-_core:
-  default_config_hash: m-0FfCBjtnuCB7s3Yek6EvRIy-9DSKlRKBMN6CFdFiM
-id: node.session.field_session_level
-field_name: field_session_level
+id: node.session.field_session_language
+field_name: field_session_language
 entity_type: node
 bundle: session
-label: 'Session Level'
+label: Language
 description: ''
 required: true
 translatable: false

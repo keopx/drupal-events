@@ -5,7 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.session.field_session_audience
-    - field.field.node.session.field_session_desciption
+    - field.field.node.session.field_session_description
     - field.field.node.session.field_session_drupal_version
     - field.field.node.session.field_session_level
     - field.field.node.session.field_session_speaker
@@ -13,6 +13,8 @@ dependencies:
     - node.type.session
   module:
     - user
+_core:
+  default_config_hash: b0Ijdb_G_aH7Q-Iu54met9Yp7etpl2H9YNdAxZG0VH4
 id: node.session.teaser
 targetEntityType: node
 bundle: session
@@ -22,7 +24,7 @@ content:
     weight: 100
 hidden:
   field_session_audience: true
-  field_session_desciption: true
+  field_session_description: true
   field_session_drupal_version: true
   field_session_level: true
   field_session_speaker: true

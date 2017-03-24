@@ -5,6 +5,8 @@ dependencies:
   module:
     - node
     - user
+_core:
+  default_config_hash: 17aFMA5EyUDOMe4021s0EIy9yy0Jhi0b6U8ssR-HbpI
 id: node.field_session_speaker
 field_name: field_session_speaker
 entity_type: node

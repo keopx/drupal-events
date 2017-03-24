@@ -7,13 +7,15 @@ dependencies:
     - node.type.session
   module:
     - options
+_core:
+  default_config_hash: prFnBes3TSYHNDIT4AqVzk_35j2krU3oOa2PjwQE3tI
 id: node.session.field_session_audience
 field_name: field_session_audience
 entity_type: node
 bundle: session
 label: Audience
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

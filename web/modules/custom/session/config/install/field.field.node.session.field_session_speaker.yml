@@ -5,13 +5,15 @@ dependencies:
   config:
     - field.storage.node.field_session_speaker
     - node.type.session
+_core:
+  default_config_hash: edlcMwZU5KPHDm3qox-TPWspl3Lcfy31lLcKDjcxr30
 id: node.session.field_session_speaker
 field_name: field_session_speaker
 entity_type: node
 bundle: session
 label: Speaker
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

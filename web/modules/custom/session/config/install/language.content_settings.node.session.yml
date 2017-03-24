@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - node.type.session
+_core:
+  default_config_hash: lQGHz2Dm4QYNo_wzNLaRNAhteESPiUajbU2aTN01qD8
 id: node.session
 target_entity_type_id: node
 target_bundle: session

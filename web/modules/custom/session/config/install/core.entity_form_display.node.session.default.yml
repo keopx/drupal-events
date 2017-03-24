@@ -4,15 +4,23 @@ status: true
 dependencies:
   config:
     - field.field.node.session.field_session_audience
-    - field.field.node.session.field_session_desciption
+    - field.field.node.session.field_session_description
     - field.field.node.session.field_session_drupal_version
+    - field.field.node.session.field_session_language
     - field.field.node.session.field_session_level
+    - field.field.node.session.field_session_slides
+    - field.field.node.session.field_session_slides_url
     - field.field.node.session.field_session_speaker
     - field.field.node.session.field_session_state
+    - field.field.node.session.field_session_type
     - node.type.session
   module:
+    - file
+    - link
     - path
     - text
+_core:
+  default_config_hash: 3rprzWGM15UIlq-bQ9TBBIVokP-Mpr8hNyfUyr-Eiwo
 id: node.session.default
 targetEntityType: node
 bundle: session
@@ -20,16 +28,16 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 8
+    weight: 11
     settings: {  }
     third_party_settings: {  }
   field_session_audience:
-    weight: 12
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
-  field_session_desciption:
-    weight: 1
+  field_session_description:
+    weight: 8
     settings:
       rows: 9
       summary_rows: 3
@@ -37,49 +45,72 @@ content:
     third_party_settings: {  }
     type: text_textarea_with_summary
   field_session_drupal_version:
-    weight: 5
+    weight: 7
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
-  field_session_level:
-    weight: 4
+  field_session_language:
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select
+  field_session_level:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_session_slides:
+    weight: 15
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+  field_session_slides_url:
+    weight: 16
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
   field_session_speaker:
-    weight: 3
+    weight: 4
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: entity_reference_autocomplete_tags
   field_session_state:
-    weight: 2
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_session_type:
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     type: options_select
   langcode:
     type: language_select
-    weight: 6
+    weight: 9
     settings: {  }
     third_party_settings: {  }
   path:
     type: path
-    weight: 11
+    weight: 14
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 9
+    weight: 12
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 13
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -90,7 +121,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 7
+    weight: 10
     settings:
       match_operator: CONTAINS
       size: 60

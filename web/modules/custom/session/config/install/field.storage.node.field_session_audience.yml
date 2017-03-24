@@ -5,6 +5,8 @@ dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: il5a2F8XW7ifGKBf_sk62NHdkZAmdNYU6qEZV5-zcSE
 id: node.field_session_audience
 field_name: field_session_audience
 entity_type: node

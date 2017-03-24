@@ -3,8 +3,11 @@
 /**
  * Implements hook_uninstall().
  */
-
 function session_uninstall() {
   $content_type = \Drupal::entityManager()->getStorage('node_type')->load('session');
   $content_type->delete();
+
+  $view = \Drupal\views\Views::getView('session');
+  $storage = $view->storage;
+  $storage->delete();
 }

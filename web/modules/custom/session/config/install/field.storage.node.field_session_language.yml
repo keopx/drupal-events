@@ -1,24 +1,22 @@
-uuid: 0ea6a971-4187-4ae5-bd65-1015404f85aa
+uuid: 5b4d3cbc-ba34-4f97-94b3-07737c541cdc
 langcode: es
 status: true
 dependencies:
   module:
     - node
     - options
-_core:
-  default_config_hash: 2cyHsM4jt1Rm2BOSqjFWOIZ1-hMAn5ABAmqcBXmWxz8
-id: node.field_session_state
-field_name: field_session_state
+id: node.field_session_language
+field_name: field_session_language
 entity_type: node
 type: list_string
 settings:
   allowed_values:
     -
-      value: Propuesta
-      label: Propuesta
+      value: Spanish
+      label: Spanish
     -
-      value: Aceptada
-      label: Aceptada
+      value: English
+      label: English
   allowed_values_function: ''
 module: options
 locked: false

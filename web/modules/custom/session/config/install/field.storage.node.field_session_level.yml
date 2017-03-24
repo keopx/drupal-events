@@ -5,6 +5,8 @@ dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: 16Vn9pxcMZ6tlmIc-vnO6B7GGcOWGtr2NtRPkfHKUZY
 id: node.field_session_level
 field_name: field_session_level
 entity_type: node
