@@ -1,0 +1,22 @@
+uuid: d7609945-bbf5-4c1e-87bf-31e356c34ad2
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - events_base
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: events_base_search
+theme: events_base
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Buscar
+  provider: search
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 417cd1d8-4656-46de-b948-0d9633e29c8e
+langcode: es
+status: true
+dependencies:
+  theme:
+    - events_base
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: events_base_page_title
+theme: events_base
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  provider: core
+  label_display: '0'
+visibility: {  }

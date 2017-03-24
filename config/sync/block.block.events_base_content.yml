@@ -1,0 +1,22 @@
+uuid: 891fd2aa-eee4-4446-a299-a1aee5d61112
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - events_base
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: events_base_content
+theme: events_base
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  provider: system
+  label_display: '0'
+visibility: {  }

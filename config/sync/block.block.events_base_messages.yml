@@ -1,0 +1,22 @@
+uuid: 9d024d6f-2e95-453d-941e-cf731756cb13
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - events_base
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: events_base_messages
+theme: events_base
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  provider: system
+  label_display: '0'
+visibility: {  }

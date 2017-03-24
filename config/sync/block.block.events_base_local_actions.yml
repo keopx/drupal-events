@@ -1,0 +1,20 @@
+uuid: e46bf39a-f2ec-474c-ab1c-c0f0a98fde80
+langcode: es
+status: true
+dependencies:
+  theme:
+    - events_base
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: events_base_local_actions
+theme: events_base
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones primarias de administración'
+  provider: core
+  label_display: '0'
+visibility: {  }
