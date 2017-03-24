@@ -1,12 +1,10 @@
 <?php
 
-use \Drupal\views\Views;
-
 /**
  * Implements hook_uninstall().
  */
 function attendees_uninstall() {
-  $view = Views::getView('attendees');
+  $view = \Drupal\views\Views::getView('attendees');
   $storage = $view->storage;
   $storage->delete();
 }
